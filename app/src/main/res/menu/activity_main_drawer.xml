@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_shouye"
+            android:icon="@mipmap/ic_least"
+            android:title="首页" />
+        <item
+            android:id="@+id/nav_xinggan"
+            android:icon="@mipmap/ic_mrxt"
+            android:title="性感妹子" />
+        <item
+            android:id="@+id/nav_riben"
+            android:icon="@mipmap/ic_sex"
+            android:title="日本妹子" />
+        <item
+            android:id="@+id/nav_taiwan"
+            android:icon="@mipmap/ic_swyh"
+            android:title="台湾妹子" />
+        <item
+            android:id="@+id/nav_qingchun"
+            android:icon="@mipmap/ic_wallper"
+            android:title="清纯妹子" />
+        <item
+            android:id="@+id/nav_zipai"
+            android:icon="@mipmap/ic_wmxz"
+            android:title="妹子自拍" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Author" />
+        </menu>
+    </item>
+
+</menu>
